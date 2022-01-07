@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans';
+}
+      
+/* Clase fixed-width container que se "autocentrará" a sí misma */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+/*Barra de navegación*/
+.nav{
+    display: flex; 
+    align-items: center;
+    padding: 0px 200px;
+    height: 60px;
+    background-color:rgb(41, 39, 39);
+    margin-bottom: 20px;
+}
+
+.nav-title{
+    color: white;
+    margin-right: 17px;
+}
+
+.nav-title:hover{
+    color: rgb(27, 155, 194);
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    color: rgb(41, 39, 39);
+}
+
+a{
+    margin: 0px 30px;
+    color: ghostwhite;
+    text-decoration: none;
+}
+
+.active{
+    font-weight: bold;
+}
+
+.btn{
+    color: white;
+    background-color: rgb(27, 155, 194);
+    border-color: black;
+    box-shadow: 3px 5px 0 0 black;
+    padding: 3px 15px;
+    font-size: 20px;
+    margin-left: 200px;
+    position: relative;
+    bottom: 3px;
+}
+
+.btn:hover{
+    background-color: rgb(14, 87, 109);
+}
+
+/*Columnas flexibles*/
+.flexibles{
+    border: 0px solid black;
+    width: 900px;
+}
+.row{
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+}
+
+.col{
+    background-color: rgb(14, 87, 109);;
+    margin: 10px;
+    padding: 20px;
+    flex: 1;
+}
+
+.col-2{
+    background-color: cadetblue;
+    margin: 10px;
+    padding: 20px;
+    flex: 2;
+}
+
+.col-3{
+    background-color: rgb(27, 155, 194);;
+    margin: 10px;
+    padding: 20px;
+    flex: 3;
+}
+
+.col-4{
+    background-color: rgb(10, 85, 85);;
+    margin: 10px;
+    padding: 20px;
+    flex: 4;
+}
+
+/*Tarjeta de presentación*/
+.contenedor{
+    border: 2px solid rgb(160, 160, 160);
+    width: 400px;
+    height: 296px;
+    margin-top: 20px;
+    position: relative;
+    bottom: 325px;
+    left: 435px;
+}
+
+.header{
+    background-color: rgb(27, 155, 194);
+    height: 70px;
+}
+
+.header > img{
+    width: 80px;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    border: 3px solid rgb(160, 160, 160);
+    border-radius: 50%;
+    padding: 2px;
+    background-color: white;
+}
+
+.perfil:hover{
+    border: 3px solid rgb(14, 87, 109);
+}
+
+.tarjetaInformacion{
+    margin-top: 55px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.iconoUbicacion {
+    width: 25px;
+    height: 30px;
+    padding: 5px;
+}
+
+.iconoConfiguracion{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+.ciudad, a{
+    vertical-align: 7px;
+}
+
+.skillset{
+    margin-bottom: 5px;
+}
+
+.tituloUniversitario{
+    margin-top: 0;
+}
+
+.editlink, .view{
+    color: rgb(60, 48, 238);
+    text-decoration: underline;
+    position: relative;
+    right: 30px;
+}
